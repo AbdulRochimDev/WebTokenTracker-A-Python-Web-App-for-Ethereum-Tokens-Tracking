@@ -5,7 +5,7 @@ Usage
 Installation and Configuration:
 
 Download the WebTokenTracker repository.
-Install dependencies by running pip install -r requirements.txt.
+Install dependencies by running pip install 
 Configure the API key for the Etherscan service.
 Adding Tokens:
 
