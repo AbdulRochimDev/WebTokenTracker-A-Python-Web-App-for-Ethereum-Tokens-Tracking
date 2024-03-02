@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Token Tracker</title>
+</head>
+<body>
+    <h1>Ethereum Token Tracker</h1>
+    <ul>
+        {% for address, tokens in token_holdings.items() %}
+            <li>
+                <h2>{{ address }}</h2>
+                <ul>
+                    {% for token_address, info in tokens.items() %}
+                        <li>
+                            <h3>{{ token_address }}</h3>
+                            <p>Transactions: {{ info.transactions }}</p>
+                            <p>Token Price: {{ info.price }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

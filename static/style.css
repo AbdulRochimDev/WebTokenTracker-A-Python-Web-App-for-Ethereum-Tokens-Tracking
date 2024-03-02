@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #f8f9fa; /* Light grey background color */
+    border-bottom: 1px solid #dee2e6; /* Border color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+/* Container styling */
+.container {
+    margin-top: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #343a40; /* Dark grey text color */
+}
+
+/* Paragraph styling */
+p {
+    color: #6c757d; /* Medium grey text color */
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #343a40; /* Dark grey background color */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+/* Bootstrap container override for better responsiveness */
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
