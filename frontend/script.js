@@ -1,5 +1,8 @@
+// Import library lodash dari CDN
+import _ from 'lodash';
+
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('http://localhost:5000/api/token_info')  // Adjust the port if needed
+    fetch('http://localhost:5000/api/token_info')  // Sesuaikan port jika diperlukan
         .then(response => response.json())
         .then(data => {
             displayTokenInfo(data);
@@ -13,7 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         tokenInfoElement.innerHTML = `
             <h2>${data.token_name}</h2>
             <p>Balance: ${data.balance}</p>
-            <!-- Add other HTML elements as needed -->
+            <p>Modified with lodash: ${_.capitalize(data.token_name)}</p> <!-- Tambahkan penggunaan lodash di sini -->
+            <!-- Tambahkan elemen HTML lain jika diperlukan -->
         `;
     }
 });

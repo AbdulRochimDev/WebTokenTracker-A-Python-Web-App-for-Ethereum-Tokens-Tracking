@@ -1,15 +1,14 @@
 {
   "name": "webtokentracker-python",
   "version": "1.0.0",
-  "description": "web application that simplifies tracking and analyzing your eth token portfolio",
+  "description": "Web application that simplifies tracking and analyzing your ETH token portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "python app.py & parcel watch frontend/script.js --out-dir static/dist",
-    
+    "start": "python app.py & parcel watch frontend/script.js --out-dir static/dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdulRochimDev/WebTokenTracker-A-Python-Web-App-for-Ethereum-Tokens-Tracking.git"
+    "url": "https://github.com/AbdulRochimDev/WebTokenTracker-A-Python-Web-App-for-Ethereum-Tokens-Tracking.git"
   },
   "keywords": [
     "webtokentracker"
@@ -19,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/AbdulRochimDev/WebTokenTracker-A-Python-Web-App-for-Ethereum-Tokens-Tracking/issues"
   },
-  "homepage": "https://github.com/AbdulRochimDev/WebTokenTracker-A-Python-Web-App-for-Ethereum-Tokens-Tracking#readme"
+  "homepage": "https://github.com/AbdulRochimDev/WebTokenTracker-A-Python-Web-App-for-Ethereum-Tokens-Tracking#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "eslint": "^7.32.0",
+    "lodash": "^4.17.21",
+  }
 }
