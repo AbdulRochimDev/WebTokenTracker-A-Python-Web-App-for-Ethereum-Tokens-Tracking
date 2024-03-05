@@ -1,0 +1,28 @@
+{
+    "0x123abc...": {
+      "0x456def...": {
+        "transactions": [
+          {"from": "0x789ghi...", "to": "0x123abc...", "value": 10},
+          {"from": "0xaaa111...", "to": "0x123abc...", "value": 5}
+        ],
+        "price": 200.0
+      },
+      "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE": {
+        "transactions": [
+          {"from": "0x789ghi...", "to": "0x123abc...", "value": 5},
+          {"from": "0xccc222...", "to": "0x123abc...", "value": 8}
+        ],
+        "price": 1.0
+      }
+    },
+    "0xFghiJKL...": {
+      "0x789xyz...": {
+        "transactions": [
+          {"from": "0xaaa111...", "to": "0xFghiJKL...", "value": 15},
+          {"from": "0xccc222...", "to": "0xFghiJKL...", "value": 7}
+        ],
+        "price": 50.0
+      }
+    }
+  }
+  
