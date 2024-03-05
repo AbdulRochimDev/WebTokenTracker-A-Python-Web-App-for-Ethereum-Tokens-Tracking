@@ -1,0 +1,8 @@
+README.md
+setup.py
+webtokentracker.egg-info/PKG-INFO
+webtokentracker.egg-info/SOURCES.txt
+webtokentracker.egg-info/dependency_links.txt
+webtokentracker.egg-info/entry_points.txt
+webtokentracker.egg-info/requires.txt
+webtokentracker.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+webtokentracker = nama_modul_anda:app.run

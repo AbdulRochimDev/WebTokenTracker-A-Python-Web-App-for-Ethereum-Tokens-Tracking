@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: webtokentracker
+Version: 1.0.0
+Summary: Aplikasi web untuk melacak dan menganalisis portofolio token ETH Anda
+Author: AbdulRochimDev
+Requires-Dist: Flask
+Requires-Dist: Flask-CORS
